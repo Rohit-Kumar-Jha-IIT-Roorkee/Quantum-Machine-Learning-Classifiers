@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Data
+*.csv
+*.npz
+
+# Model weights (optional, but good practice to version control if small. 
+# Here they are small so we can include them, or exclude if desired. 
+# User didn't specify, but often we strictly ignore 'data'. 
+# I will keep model_best.pth as it's a key artifact, but ignore massive datasets)
+
+# Environments
+.env
+.venv
+env/
+venv/
